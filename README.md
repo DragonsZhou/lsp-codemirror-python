@@ -1,4 +1,7 @@
-# vu2test
+# lsp-codemirror-python
+
+lsp-codemirror  connet   python-lsp
+
 
 ## Project setup
 ```
