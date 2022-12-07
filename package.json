@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "lsp-codemirror": "^0.2.9",
+    "lsp-editor-adapter": "^0.0.10",
+    "vue": "^2.6.14",
+    "vue-codemirror": "^4.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -33,7 +36,9 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",

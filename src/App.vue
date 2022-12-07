@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>我的编辑器</h1>
+    <div>
+      <CommonEditor/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CommonEditor from './components/CommonEditor.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CommonEditor
   }
 }
 </script>
@@ -24,5 +26,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width:60%;
+  height:100%;
+  margin-left:20%;
 }
 </style>
